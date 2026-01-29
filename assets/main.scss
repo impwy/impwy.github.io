@@ -3,3 +3,25 @@
 ---
 
 @import 'modern-resume-theme';
+
+@media print {
+  /* 아이콘 표시 */
+  .no-print {
+    display: block !important;
+  }
+  
+  .icons.no-print {
+    display: flex !important;
+  }
+  
+  /* Font Awesome 아이콘 색상 유지 */
+  .fab, .fas, .far, .fa {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* 링크 URL 숨기기 (자동 추가되는 것 방지) */
+  a[href]::after {
+    content: none !important;
+  }
+}
