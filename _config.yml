@@ -64,7 +64,8 @@ content:
         quote: >
           제조 현장 MES 시스템 개발 및 유지보수
         description: | # this will include new lines to allow paragraphs
-          ### 다이킨 첨단 머터리얼 코리아 (DAMK) | 2023.07 - 2025.09
+          ## 다이킨 첨단 머터리얼 코리아 (DAMK)
+          **2023.07 - 2025.09**
           
           *기술 스택: Java, Spring Boot, MySQL, Linux, Vue3*
           
@@ -88,7 +89,8 @@ content:
           
           ---
           
-          **SK 에너지** | 2023.05 - 2023.07
+          ## SK 에너지 
+          **2023.05 - 2023.07**
           - 다국어 지원을 위해 UI 텍스트 영문화 작업 수행 (넥사크로 + DB 코드 기반 적용)
 
   - title: Education # Title for the section
