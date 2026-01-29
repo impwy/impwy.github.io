@@ -1,6 +1,6 @@
 # Site
-repository: https://github.com/impwy
-favicon: images/favicon.ico
+repository: impwy/impwy.github.io
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -15,7 +15,7 @@ website: https://pwy8617.tistory.com
 darkmode: false
 
 # Social links
-#github_username: impwy
+github_username: impwy
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -45,7 +45,7 @@ additional_links:
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile.jpg
+#about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 백엔드 개발자 박원용입니다.
   
@@ -64,7 +64,7 @@ content:
         quote: >
           제조 현장 MES 시스템 개발 및 유지보수
         description: | # this will include new lines to allow paragraphs
-          **다이킨 첨단 머터리얼 코리아 (DAMK)** | 2023.07 - 2025.09
+          ### 다이킨 첨단 머터리얼 코리아 (DAMK) | 2023.07 - 2025.09
           
           *기술 스택: Java, Spring Boot, MySQL, Linux, Vue3*
           
