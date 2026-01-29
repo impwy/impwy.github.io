@@ -1,39 +1,38 @@
 # Site
-repository: sproogen/resume-theme
+repository: https://github.com/impwy
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 박원용
+title: Backend Developer
+email: pwy6817@gmail.com
+website: https://pwy8617.tistory.com
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#github_username: impwy
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: 블로그
+  icon: fas fa-blog
+  url: https://pwy8617.tistory.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,79 +44,79 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  안녕하세요. 백엔드 개발자 박원용입니다.
+  
+  제조 현장의 실질적인 문제를 해결하는 **MES 시스템 개발 및 운영 경험**을 보유하고 있습니다.
+  
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: ㈜ 아큐라시스템
+        link: 
+        link_text: 
+        sub_title: 서비스 지원팀
+        caption: 2023.05 - 2025.09
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          제조 현장 MES 시스템 개발 및 유지보수
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          **다이킨 첨단 머터리얼 코리아 (DAMK)** | 2023.07 - 2025.09
+          
+          *기술 스택: Java, Spring Boot, MySQL, Linux, Vue3*
+          
+          **MES-SAP 연동 시스템 개발** (2025.02 - 2025.09)
+          - 다이킨 일본 본사 SAP와 공장 MES 간 재고·공정·출하 데이터 실시간 연동
+          - 3인 팀에서 기능 개발, 테스트, 운영 중 개선사항 수정 담당
+          - REST API 기반 통신 구현, 로그 분석 및 SAP 측 메일 알림을 활용한 에러 모니터링 체계 구축
+          - Linux crontab 기반 COA 자동 발행 배치 시스템 개발
+          
+          **라벨발행 자동화 시스템** (2025.01 - 2025.04)
+          - ZPL 언어로 라벨 템플릿 설계 및 MES 데이터 연동
+          - 수동 개별 발행을 일괄 자동 발행으로 전환하여 휴먼 에러 감소 및 작업 시간 단축
+          
+          **분석 데이터 자동 수집** (2024.01 - 2024.04)
+          - 폐쇄망 환경에서 Windows 공용폴더 ↔ Linux 서버 연동으로 분석기기 데이터 MES 자동 저장
+          - crontab 배치 스케줄링으로 수작업 데이터 입력 업무 제거
+          
+          **MES 시스템 유지보수 및 성능 개선** (2023.07 - 2025.09)
+          - 성능 개선: 인덱스 재설계 및 SQL 튜닝, Java 코드 리팩토링을 통해 대용량 목록 조회 속도 4~5초를 1초 이내로 개선
+          - 신생 공장의 잦은 요구사항 변경에 유연하게 대응하며 시스템 안정화
+          
+          ---
+          
+          **SK 에너지** | 2023.05 - 2023.07
+          - 다국어 지원을 위해 UI 텍스트 영문화 작업 수행 (넥사크로 + DB 코드 기반 적용)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: 한국방송통신대학교
+        caption: 2023.09 - 2025.08
+        sub_title: 컴퓨터과학과
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          학사 졸업
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          컴퓨터과학 전공으로 학사 학위를 취득하였습니다.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
+      - **Backend**: Java, Spring Boot
+      - **Database**: MySQL
+      - **Frontend**: Vue.js 3, JavaScript, TypeScript
+      - **Infra**: Linux
+      
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
