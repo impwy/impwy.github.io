@@ -1,0 +1,58 @@
+<header class="container header-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7 header-left">
+      <h1>{{ site.name | escape }}</h1>
+      <h2>{{ site.title | escape }}</h2>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 header-right">
+      <ul class="icons no-print" aria-label="External links">
+        {%- if site.github_username -%}
+          <li>
+            <a
+              class="button button--sacnite button--round-l"
+              href="https://github.com/{{ site.github_username | cgi_escape | escape }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        {%- endif -%}
+
+        {% for link in site.additional_links %}
+          <li>
+            <a
+              class="button button--sacnite button--round-l"
+              href="{{ link.url | escape }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="{{ link.title | escape }}"
+            >
+              <i class="{{ link.icon }}" aria-hidden="true"></i>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <div class="contact-lines">
+        {%- if site.email -%}
+          <p><strong>Email</strong>: <a href="mailto:{{ site.email }}">{{ site.email | escape }}</a></p>
+        {%- endif -%}
+        {%- if site.github_username -%}
+          <p>
+            <strong>GitHub</strong>:
+            <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">github.com/{{ site.github_username | escape }}</a>
+          </p>
+        {%- endif -%}
+        {%- if site.website -%}
+          <p>
+            <strong>{{ site.website_title | default: "Tech Blog" }}</strong>:
+            <a href="{{ site.website | escape }}">{{ site.website | remove: "https://" | remove: "http://" | escape }}</a>
+          </p>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</header>
