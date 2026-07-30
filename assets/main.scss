@@ -85,8 +85,25 @@ ul {
   padding: 0;
 }
 
+.layout .content h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 2rem 0 0.7rem;
+}
+
 .layout .content p {
   margin-bottom: 0.6rem;
+}
+
+.layout .content .project-background {
+  background: #f3f5f7;
+  border-left: 3px solid #c9d1d9;
+  color: #5f6b78;
+  font-size: 1.35rem;
+  line-height: 1.55;
+  margin-bottom: 0.9rem;
+  padding: 0.7rem 1rem;
 }
 
 .layout .content ul {
@@ -228,9 +245,22 @@ ul {
     margin: 9px 0 2px;
   }
 
+  .layout .content h4 {
+    break-after: avoid;
+    font-size: 10.5pt;
+    margin: 8px 0 3px;
+  }
+
   .layout .content p {
     break-after: avoid;
     margin-bottom: 3px;
+  }
+
+  .layout .content .project-background {
+    font-size: 8.8pt;
+    line-height: 1.35;
+    margin-bottom: 4px;
+    padding: 3px 6px;
   }
 
   .layout .content ul {
