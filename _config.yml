@@ -52,7 +52,7 @@ content:
     layout: text
     content: |
       - **Backend**: Java, Spring Boot, JPA, REST API
-      - **Database**: MySQL, SQL Tuning
+      - **Database**: MySQL
       - **Frontend**: Vue 3, JavaScript, TypeScript
       - **Operations**: Linux, crontab
 
