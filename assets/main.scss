@@ -120,6 +120,12 @@ ul {
   margin: 1.8rem 0;
 }
 
+.experience-divider {
+  border: 0;
+  border-top: 1px solid #d9dde2;
+  margin: 2rem 0 2.5rem;
+}
+
 .footer-container {
   margin-top: 48px;
 }
@@ -275,6 +281,10 @@ ul {
 
   .layout .content hr {
     margin: 9px 0;
+  }
+
+  .experience-divider {
+    margin: 3mm 0 4mm;
   }
 
   .text-container li {
