@@ -52,6 +52,12 @@
             <a href="{{ site.website | escape }}">{{ site.website | remove: "https://" | remove: "http://" | escape }}</a>
           </p>
         {%- endif -%}
+        {%- if site.portfolio -%}
+          <p>
+            <strong>Portfolio</strong>:
+            <a href="{{ site.portfolio | escape }}">Notion 포트폴리오</a>
+          </p>
+        {%- endif -%}
       </div>
     </div>
   </div>
